@@ -179,7 +179,8 @@ type IrisBalanceResponse struct {
 type SubscribeResponse struct {
 	ID             string                 `json:"id"`
 	CreatedAt      string                 `json:"created_at"`
-	StatusCode     string                 `json:"status"`
+	Status         string                 `json:"status"`
+	StatusCode     string                 `json:"status_code"`
 	Name           string                 `json:"name"`
 	Amount         string                 `json:"amount"`
 	Currency       string                 `json:"currency"`
