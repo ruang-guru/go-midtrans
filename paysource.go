@@ -25,6 +25,9 @@ const (
 	// SourceBriEpay : bri_epay
 	SourceBriEpay PaymentType = "bri_epay"
 
+	// PaymentTypeBRIVA : bca_va
+	SourceBRIVA PaymentType = "bri_va"
+
 	// SourceCreditCard : credit_card
 	SourceCreditCard PaymentType = "credit_card"
 
