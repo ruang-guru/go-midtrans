@@ -25,7 +25,7 @@ const (
 	// SourceBriEpay : bri_epay
 	SourceBriEpay PaymentType = "bri_epay"
 
-	// PaymentTypeBRIVA : bca_va
+	// PaymentTypeBRIVA : bri_va
 	SourceBRIVA PaymentType = "bri_va"
 
 	// SourceCreditCard : credit_card
@@ -78,6 +78,9 @@ const (
 
 	// SourceAkulaku : akulaku
 	SourceAkulaku PaymentType = "akulaku"
+
+	// SourceKredivo : kredivo
+	SourceKredivo PaymentType = "kredivo"
 )
 
 // AllPaymentSource : Get All available PaymentType
